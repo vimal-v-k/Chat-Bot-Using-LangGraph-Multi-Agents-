@@ -19,7 +19,7 @@ context =Context()
 
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://VikramSekar2305:oE6eIWLoMsjSx8hl@vikram.3xek9.mongodb.net/')
+client = MongoClient('mongodb+srv:/ngodb.net/')
 db = client['ai_conversations']
 users_collection = db['memory_demo']
 
